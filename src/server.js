@@ -7,7 +7,7 @@ const postRouter = require("./post/routes");
 
 
 // Setting the port or (||) the number 5001 if no port set in env
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 9999;
 
 // Shortening Express.js
 const app = express();
